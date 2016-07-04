@@ -1,2 +1,3 @@
 # melon
-A small C++ key value store.
+A small C++ database library.
+
