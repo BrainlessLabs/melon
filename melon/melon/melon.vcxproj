@@ -166,6 +166,7 @@
     <ClInclude Include="..\include\blib\fmt\format.hpp" />
     <ClInclude Include="..\include\blib\fmt\format_impl.hpp" />
     <ClInclude Include="..\include\blib\melon.hpp" />
+    <ClInclude Include="..\include\blib\melon\DbDetails.hpp" />
     <ClInclude Include="..\include\blib\rapidjson\allocators.h" />
     <ClInclude Include="..\include\blib\rapidjson\document.h" />
     <ClInclude Include="..\include\blib\rapidjson\encodedstream.h" />
@@ -240,6 +241,9 @@
     <ClInclude Include="..\include\blib\sqlite_cpp\sqlite_modern_cpp\extensions\std_time_t.h" />
     <ClInclude Include="..\include\blib\sqlite_cpp\sqlite_modern_cpp\utility\function_traits.h" />
     <ClInclude Include="..\include\blib\utils\BitUtils.hpp" />
+    <ClInclude Include="..\include\blib\utils\MD5.hpp" />
+    <ClInclude Include="..\include\blib\utils\Singleton.hpp" />
+    <ClInclude Include="..\include\blib\utils\TypeUtils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

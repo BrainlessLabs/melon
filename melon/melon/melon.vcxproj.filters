@@ -64,6 +64,12 @@
     <Filter Include="Header Files\blib\duktape">
       <UniqueIdentifier>{e6373b6c-5dfd-4177-afb9-49b7f7ac5e5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\blib\melon">
+      <UniqueIdentifier>{4d63d52c-1971-4669-9862-a7c314d02abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blib\utils">
+      <UniqueIdentifier>{b4ccfcd4-de53-40ae-b654-7f99131ba937}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -290,9 +296,6 @@
     <ClInclude Include="..\include\blib\spdlog\details\spdlog_impl.h">
       <Filter>Header Files\blib\spdlog\details</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\blib\utils\BitUtils.hpp">
-      <Filter>Header Files\blib</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\blib\sqlite_cpp\sqlite_modern_cpp.hpp">
       <Filter>Header Files\blib\sqlite_cpp</Filter>
     </ClInclude>
@@ -322,6 +325,21 @@
     </ClInclude>
     <ClInclude Include="..\include\blib\duktape\duktape.h">
       <Filter>Header Files\blib\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\melon\DbDetails.hpp">
+      <Filter>Header Files\blib\melon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\utils\BitUtils.hpp">
+      <Filter>Header Files\blib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\utils\MD5.hpp">
+      <Filter>Header Files\blib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\utils\Singleton.hpp">
+      <Filter>Header Files\blib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\utils\TypeUtils.hpp">
+      <Filter>Header Files\blib\utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
