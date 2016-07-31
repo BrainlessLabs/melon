@@ -70,6 +70,9 @@
     <Filter Include="Header Files\blib\utils">
       <UniqueIdentifier>{b4ccfcd4-de53-40ae-b654-7f99131ba937}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\blib\crow">
+      <UniqueIdentifier>{4896a8e9-0f8e-493f-86a3-37c038bd61e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -340,6 +343,9 @@
     </ClInclude>
     <ClInclude Include="..\include\blib\utils\TypeUtils.hpp">
       <Filter>Header Files\blib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\crow\crow.hpp">
+      <Filter>Header Files\blib\crow</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
