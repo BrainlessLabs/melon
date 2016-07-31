@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\blib\catch\catch.hpp" />
+    <ClInclude Include="..\include\blib\crow\crow.hpp" />
     <ClInclude Include="..\include\blib\duktape\duktape.hpp" />
     <ClInclude Include="..\include\blib\duktape\duktape.h" />
     <ClInclude Include="..\include\blib\duktape\duk_config.h" />
